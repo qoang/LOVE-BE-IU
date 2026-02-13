@@ -20,18 +20,20 @@ canvas {
 /* ====== CHỮ Ở GIỮA ====== */
 .love-text {
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ff9ecb;
-  font-size: 55px;
+  font-size: 38px;   /* GIẢM SIZE */
   font-weight: bold;
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
-  text-shadow: 0 0 25px #ff4da6;
+  text-shadow: 0 0 15px #ff4da6;
   z-index: 10;
   animation: glow 2s ease-in-out infinite alternate;
+  white-space: nowrap;
 }
+
 
 @keyframes glow {
   from { text-shadow: 0 0 10px #ff4da6; }
